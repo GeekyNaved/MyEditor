@@ -20,7 +20,7 @@
         count = text.trim().replace(/\s+/g, ' ').split(' ').length;
 //    document.querySelector('.words').textContent = count;
     var mainCount = count;
-    if(mainCount >= 3){
+    if(mainCount >= 250){
 
         var newDiv = document.createElement('div');
         newDiv.id = "output";
